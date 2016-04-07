@@ -80,10 +80,21 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, YouTubePlayerActivity.class);
+              //YouTube video ID(Requerido, utiliza-se o YouTubeIrlParser para o id do vídeo do url)
                 intent.putExtra(YouTubePlayerActivity.EXTRA_VIDEO_ID, VIDEO_ID);
+
+                // Youtube player style (DEFAULT as default)
+                //O estilo do reprodutor do youtuve (Padrão)
                 intent.putExtra(YouTubePlayerActivity.EXTRA_PLAYER_STYLE, playerStyle);
+
+                //Configuração de Orientação de tela (AUTO por padrão)
+                // AUTO, AUTO_START_WITH_LANDSCAPE, ONLY_LANDSCAPE, ONLY_PORTRAIT
                 intent.putExtra(YouTubePlayerActivity.EXTRA_ORIENTATION, orientation);
+
+                //Exibir a interface de audio quando o usuário ajustar o volumee
                 intent.putExtra(YouTubePlayerActivity.EXTRA_SHOW_AUDIO_UI, showAudioUi);
+
+                //Se o vídeo não é reproduzido, é utilizado o app do youtube ou o navegador de internet para reproduzir o vídeo
                 intent.putExtra(YouTubePlayerActivity.EXTRA_HANDLE_ERROR, true);
                 if (showFadeAnim) {
                     intent.putExtra(YouTubePlayerActivity.EXTRA_ANIM_ENTER, R.anim.fade_in);
