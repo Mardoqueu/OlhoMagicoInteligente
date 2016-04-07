@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Olho Mágico</string>
+    <string name="settings">Confirgurações</string>
+    <string name="extra_screen_orientation">Orientação de Tela</string>
+    <string name="extra_show_audio_ui">Controle de Aúdio </string>
+    <string name="extra_anim">Animação</string>
+    <string name="screen_orientation">Orientação de Tela</string>
+    <string name="choose">Escolher</string>
+    <string name="show">Mostrar</string>
+    <string name="dont_show">Não mostrar</string>
+    <string name="volume_ui_control">Controle de Aúdio</string>
+    <string name="animation_on_close">Animação Fechada</string>
+    <string name="fade">Desaparecer</string>
+    <string name="modal">MODAL</string>
+    <string name="extra_player_style">Extra Estilo do Display</string>
+    <string name="player_style">Estilo do Display</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-8256229529844462/4165015234</string>
+</resources>
