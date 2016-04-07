@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //Qual o user selecionar essa alternativa, opções relativas ao controle do audio serão exibidas.
+        //Quando o user selecionar essa alternativa, opções relativas ao controle do audio serão exibidas.
         volumeBt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
